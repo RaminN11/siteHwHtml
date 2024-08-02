@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1, p, a, button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 45px 0;
+    margin-bottom: 148px;
+}
+.firstLogo {
+    display: flex;
+    justify-content: start;
+    gap: 500px;
+    
+}
+.nameLogo{
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+}
+.colorHome {
+    color: orange;
+}
+.navigation {
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+}
+
+.navigation a {
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+}
+
+.main {
+    margin-bottom: 200px;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainContent__leftSide {
+    max-width: 540px;
+}
+
+.mainContent__leftSide h1 {
+font-size: 60px;
+margin-bottom: 17px;
+}
+
+.mainContent__leftSide p {
+color: rgb(136, 136, 136);
+font-family: Gilroy-Medium;
+font-size: 20px;
+margin-bottom: 37px;
+}
+
+.mainContent__leftSide-btnList {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.firstBtn{
+    border-radius: 50px; 
+    background: rgb(242, 88, 34);
+    color: rgb(255, 255, 255);
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    padding: 15px 36px;
+
+}
+.btnPlay {
+    border: none;
+    background: rgb(255, 255, 255);
+    color: rgb(170, 170, 170);
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    gap: 15px;
+}
+
+
+.footer {
+    margin-bottom: 90px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
+
