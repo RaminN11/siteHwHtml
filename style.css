@@ -32,8 +32,7 @@ h1, p, a, button {
 .firstLogo {
     display: flex;
     justify-content: start;
-    gap: 500px;
-    
+    margin-right: 346px;
 }
 .nameLogo{
     font-family: Gilroy-Bold;
@@ -46,8 +45,8 @@ h1, p, a, button {
 }
 .navigation {
     display: flex;
-    justify-content: end;
-    gap: 40px;
+    justify-content: space-around;
+   
 }
 
 .navigation a {
@@ -107,6 +106,7 @@ margin-bottom: 37px;
     font-weight: 400;
     display: flex;
     gap: 15px;
+    align-items: center;
 }
 
 
