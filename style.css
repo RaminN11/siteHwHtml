@@ -54,13 +54,11 @@ h1, p, a, button {
     font-size: 14px;
 }
 
-.main {
-    margin-bottom: 200px;
-}
 
 .mainContent {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 200px;
 }
 
 .mainContent__leftSide {
@@ -111,12 +109,136 @@ margin-bottom: 37px;
 }
 
 
-.footer {
-    margin-bottom: 90px;
-}
 
 .logos {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 90px;
 }
 
+.topCardList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 60px;
+    margin-bottom: 100px;
+}
+
+.card {
+    align-items: start;
+    padding: 30px;
+    text-align: start;
+    gap: 25px;
+}
+
+
+.cardSecond {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+
+.card img {
+    margin-bottom: 25px;
+}
+.card h2 {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+
+.card p {
+    color: rgb(102, 102, 102);
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 25px;
+}
+.marginTextCard {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 25px;
+   
+}
+
+
+.footer {
+    background: rgba(128, 128, 128, 0.062);
+    margin-bottom: 100px;
+}
+
+.topText {
+    text-align: center;
+    padding: 92px;
+}
+.topText h1 {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 19px;
+}
+.topText p {
+    color: rgb(102, 102, 102);
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 54px;
+}
+
+.marginCardList {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: rgb(255, 255, 255);
+
+}
+.secondMarginCard {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+}
+
+.marginCard {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.marginCard img {
+    margin-bottom: 29px;
+}
+.marginCard h2 {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: -1px;
+    margin-bottom: 22px;    
+}
+.marginCard p {
+    color: rgb(170, 170, 170);
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 39px;
+}
+
+.marginCard button {
+    border-radius: 50px; 
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+    background: rgb(242, 88, 34);
+    margin-bottom: 50px;
+    cursor: pointer;
+    font-size: 13px;
+    align-items: center;
+    padding: 15px 46px;
+    border: none;
+    color: rgb(255, 255, 255);
+}
